@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action = "{{url_for('predict')}}" method="POST">
+<label>Length</label>
+<input type="number" name="length" placeholder="Length"></br>
+<label>Diameter</label>
+<input type="number" name="diameter" placeholder="Diameter"></br>
+<label>Height</label>
+<input type="number" name="height" placeholder="Height"></br>
+<label>Shucked Weight</label>
+<input type="number" name="sw" placeholder="Shucked Weight"></br>
+<label>Viscera Weight</label>
+<input type="number" name="vw" placeholder="Viscera Weight"></br>
+<label>Shell Weight</label>
+<input type="number" name="shw" placeholder="Shell Weight"></br>
+<label>Rings</label>
+<input type="number" name="rings" placeholder="Rings"></br>
+<label>Sex_F</label>
+<input type="number" name="sf" placeholder="Female"></br>
+<label>Sex_I</label>
+<input type="number" name="si" placeholder="Infant"></br>
+<label>Sex_M</label>
+<input type="number" name="sm" placeholder="Male"></br>
+<input type="submit" value="predict">
+</form>
+</body>
+</html>
